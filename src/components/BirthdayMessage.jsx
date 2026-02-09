@@ -56,8 +56,6 @@ export default function BirthdayMessage({ onComplete }) {
         <FallingText colors={["#ff00ff", "#ffffff"]} />
       </div>
 
-      
-
       {/* Konten Utama */}
       <div className="absolute inset-0 flex flex-col items-center justify-center z-10 p-4 overflow-y-auto">
         {step === 0 && (
@@ -108,10 +106,14 @@ export default function BirthdayMessage({ onComplete }) {
             }`}
           >
             <p className="text-base md:text-xl text-white leading-relaxed">
-              To the most amazing woman in my life,
-Happy Valentine’s Day, my love. Every moment with you feels like a beautiful dream I never want to wake up from. Thank you for filling my days with warmth, smiles, and love in ways words can’t fully describe. I pray for your happiness, health, and success in everything you do. You deserve all the love in the universe—and my heart will always choose you, today and every day.
-
-I love you more than words can ever express. Love uu, sayang ❤️
+              To the most amazing woman in my life, Happy Valentine’s Day, my
+              love. Every moment with you feels like a beautiful dream I never
+              want to wake up from. Thank you for filling my days with warmth,
+              smiles, and love in ways words can’t fully describe. I pray for
+              your happiness, health, and success in everything you do. You
+              deserve all the love in the universe—and my heart will always
+              choose you, today and every day. I love you more than words can
+              ever express. Love uu, sayang ❤️
             </p>
           </div>
         )}
@@ -134,7 +136,10 @@ I love you more than words can ever express. Love uu, sayang ❤️
         }
 
         .neon-text {
-          text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 20px #ff00ff,
+          text-shadow:
+            0 0 5px #ff00ff,
+            0 0 10px #ff00ff,
+            0 0 20px #ff00ff,
             0 0 40px #ff00ff;
           animation: neon-flicker 1.5s infinite alternate;
         }
@@ -148,7 +153,10 @@ I love you more than words can ever express. Love uu, sayang ❤️
           54%,
           56%,
           100% {
-            text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 20px #ff00ff,
+            text-shadow:
+              0 0 5px #ff00ff,
+              0 0 10px #ff00ff,
+              0 0 20px #ff00ff,
               0 0 40px #ff00ff;
           }
           20%,
