@@ -9,7 +9,7 @@ export default function FallingText({ colors = ['#ff00ff', '#ffffff'] }) {
         ...prev,
         {
           id: Date.now(),
-          text: 'Happy Anniversary',
+          text: 'Happy Valentine',
           left: Math.random() * 100,
           delay: Math.random() * 5,
           duration: 5 + Math.random() * 10,

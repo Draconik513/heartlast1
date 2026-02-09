@@ -62,8 +62,8 @@ export default function BirthdayMessage({ onComplete }) {
       <div className="absolute inset-0 flex flex-col items-center justify-center z-10 p-4 overflow-y-auto">
         {step === 0 && (
           <>
-            <FloatingText text="Happy Anniversary" delay={0} />
-            <FloatingText text="Happy Anniversary" delay={1.5} />
+            <FloatingText text="Happy Valentine" delay={0} />
+            <FloatingText text="Happy Valentine" delay={1.5} />
           </>
         )}
 
@@ -96,7 +96,7 @@ export default function BirthdayMessage({ onComplete }) {
             }`}
           >
             <div className="text-3xl md:text-6xl font-bold text-pink-400 mb-8 neon-text">
-              Happy Anniversary!
+              Happy Valentine!
             </div>
           </div>
         )}
@@ -108,11 +108,10 @@ export default function BirthdayMessage({ onComplete }) {
             }`}
           >
             <p className="text-base md:text-xl text-white leading-relaxed">
-              To the most amazing woman in my life, may your birthday be as
-              beautiful as you are. Every moment with you feels like a dream
-              come true. I pray for your happiness, health, and success in
-              everything you do. You deserve all the love in the universe. I
-              love you more than words can express. love uu sayang❤️
+              To the most amazing woman in my life,
+Happy Valentine’s Day, my love. Every moment with you feels like a beautiful dream I never want to wake up from. Thank you for filling my days with warmth, smiles, and love in ways words can’t fully describe. I pray for your happiness, health, and success in everything you do. You deserve all the love in the universe—and my heart will always choose you, today and every day.
+
+I love you more than words can ever express. Love uu, sayang ❤️
             </p>
           </div>
         )}
