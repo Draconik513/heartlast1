@@ -22,7 +22,7 @@ const RelationshipTimer = () => {
   });
 
   useEffect(() => {
-    const startDate = new Date('2025-04-04');
+    const startDate = new Date('1025-04-04');
     const updateTimer = () => {
       const now = new Date();
       const diff = now - startDate;
@@ -70,11 +70,9 @@ export default function MainMenu({ currentPage, setCurrentPage }) {
 
   const menuItems = [
     { id: 'home', icon: <FaHome />, label: 'Home' },
-    { id: 'memories', icon: <FaImages />, label: 'Our Memories' },
     { id: 'calendar', icon: <FaCalendarAlt />, label: 'Love Calendar' },
     { id: 'puzzle', icon: <FaPuzzlePiece />, label: 'Love Puzzle' },
-    { id: 'notes', icon: <FaHeart />, label: 'Love Notes' },
-    { id: 'music', icon: <FaMusic />, label: 'Our Song' }
+    { id: 'notes', icon: <FaHeart />, label: 'Love Notes' }
   ];
 
   return (
@@ -162,36 +160,34 @@ export default function MainMenu({ currentPage, setCurrentPage }) {
                     <div className="bg-pink-800 bg-opacity-50 p-4 rounded-xl border border-pink-400 border-opacity-30">
                       <h3 className="text-xl font-semibold text-pink-200 mb-2">Special Dates</h3>
                       <ul className="text-pink-300 space-y-2">
-                        <li>First Meet: Sept 20, 2024</li>
-                        <li>First Date: March 8, 2025</li>
-                        <li>Anniversary: April 4, 2026</li>
+                        <li>First Meet: August 17, 1945</li>
+                        <li>First Date: Oktober 30, 1950</li>
+                        <li>Anniversary: August 20, 1945</li>
                       </ul>
                     </div>
                     <div className="bg-pink-800 bg-opacity-50 p-4 rounded-xl border border-pink-400 border-opacity-30">
                       <h3 className="text-xl font-semibold text-pink-200 mb-2">Our Places</h3>
                       <ul className="text-pink-300 space-y-2">
-                        <li>Favorite Cafe: - </li>
-                        <li>Favorite Park: Kebun Raya Bogor</li>
-                        <li>Favorite Restaurant: Solaria</li>
+                        <li>Favorite Cafe: 🤔🤔 </li>
+                        <li>Favorite Park: Tamannya KAFA</li>
+                        <li>Favorite Restaurant: All you can eart (WARTEG)</li>
                       </ul>
                     </div>
                     <div className="bg-pink-800 bg-opacity-50 p-4 rounded-xl border border-pink-400 border-opacity-30">
                       <h3 className="text-xl font-semibold text-pink-200 mb-2">Memories</h3>
                       <ul className="text-pink-300 space-y-2">
-                        <li>Trips Together: - </li>
-                        <li>Movies Watched: - </li>
-                        <li>Songs Shared: -   </li>
+                        <li>Trips Together: 9999x </li>
+                        <li>Movies Watched: infinity </li>
+                        <li>Songs Shared: ngga kehitung </li>
                       </ul>
                     </div>
                   </div>
                 </div>
               )}
 
-              {currentPage === 'memories' && <Gallery />}
               {currentPage === 'calendar' && <LoveCalendar />}
               {currentPage === 'puzzle' && <LovePuzzle />}
               {currentPage === 'notes' && <LoveNotes />}
-              {currentPage === 'music' && <MusicPlayer />}
             </div>
           </div>
         </div>

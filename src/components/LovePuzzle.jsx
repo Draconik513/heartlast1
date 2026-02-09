@@ -2,7 +2,7 @@ import { useState } from 'react';
 import confetti from 'canvas-confetti';
 import complete from '../assets/images/completed.jpg';
 
-// Import 24 potongan puzzle
+// Import 15 potongan puzzle
 import puzzle1 from '../assets/images/puzzle/puzzle-1.jpg';
 import puzzle2 from '../assets/images/puzzle/puzzle-2.jpg';
 import puzzle3 from '../assets/images/puzzle/puzzle-3.jpg';
@@ -18,15 +18,6 @@ import puzzle12 from '../assets/images/puzzle/puzzle-12.jpg';
 import puzzle13 from '../assets/images/puzzle/puzzle-13.jpg';
 import puzzle14 from '../assets/images/puzzle/puzzle-14.jpg';
 import puzzle15 from '../assets/images/puzzle/puzzle-15.jpg';
-import puzzle16 from '../assets/images/puzzle/puzzle-16.jpg';
-import puzzle17 from '../assets/images/puzzle/puzzle-17.jpg';
-import puzzle18 from '../assets/images/puzzle/puzzle-18.jpg';
-import puzzle19 from '../assets/images/puzzle/puzzle-19.jpg';
-import puzzle20 from '../assets/images/puzzle/puzzle-20.jpg';
-import puzzle21 from '../assets/images/puzzle/puzzle-21.jpg';
-import puzzle22 from '../assets/images/puzzle/puzzle-22.jpg';
-import puzzle23 from '../assets/images/puzzle/puzzle-23.jpg';
-import puzzle24 from '../assets/images/puzzle/puzzle-24.jpg';
 
 const heartPieces = [
   { id: 1, correctPosition: 1, image: puzzle1 },
@@ -44,15 +35,6 @@ const heartPieces = [
   { id: 13, correctPosition: 13, image: puzzle13 },
   { id: 14, correctPosition: 14, image: puzzle14 },
   { id: 15, correctPosition: 15, image: puzzle15 },
-  { id: 16, correctPosition: 16, image: puzzle16 },
-  { id: 17, correctPosition: 17, image: puzzle17 },
-  { id: 18, correctPosition: 18, image: puzzle18 },
-  { id: 19, correctPosition: 19, image: puzzle19 },
-  { id: 20, correctPosition: 20, image: puzzle20 },
-  { id: 21, correctPosition: 21, image: puzzle21 },
-  { id: 22, correctPosition: 22, image: puzzle22 },
-  { id: 23, correctPosition: 23, image: puzzle23 },
-  { id: 24, correctPosition: 24, image: puzzle24 },
 ];
 
 export default function LovePuzzle() {
@@ -117,8 +99,8 @@ export default function LovePuzzle() {
       <div className="flex flex-col lg:flex-row gap-4 items-start justify-center">
         {/* Puzzle Grid */}
         <div className="w-full lg:w-auto">
-          <div className="grid grid-cols-6 gap-1 sm:gap-2 bg-pink-900/40 p-2 sm:p-3 rounded-xl">
-            {[...Array(24)].map((_, i) => {
+          <div className="grid grid-cols-3 gap-1 sm:gap-2 bg-pink-900/40 p-2 sm:p-3 rounded-xl">
+            {[...Array(15)].map((_, i) => {
               const position = i + 1;
               const piece = pieces.find(p => p.position === position);
 

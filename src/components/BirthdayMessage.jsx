@@ -23,8 +23,8 @@ const FloatingText = ({ text, delay = 0 }) => {
 export default function BirthdayMessage({ onComplete }) {
   const [step, setStep] = useState(0);
   const [showConfetti, setShowConfetti] = useState(false);
-  const name = "Fajar Ananto";
-  const birthDate = "2 oktober 2003";
+  const name = "Devinmut🤏";
+  const birthDate = "";
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -52,49 +52,18 @@ export default function BirthdayMessage({ onComplete }) {
       )}
 
       {/* Background Falling Text */}
-      <div className="fixed inset-0 z-0 overflow-hidden">
+      <div className="fixed inset-0  z-0 overflow-hidden">
         <FallingText colors={["#ff00ff", "#ffffff"]} />
       </div>
 
-      {/* === Kredit Lagu di Pojok Kanan Bawah === */}
-      <div className="fixed bottom-2 right-4 z-50 text-[0.65rem] text-gray-300 bg-black bg-opacity-50 px-2 py-1 rounded max-w-xs text-right leading-tight">
-        🎵 <strong>Eternal Love</strong> by{" "}
-        <a
-          href="https://www.twisterium.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="underline"
-        >
-          Twisterium
-        </a>
-        <br />
-        Music promoted by{" "}
-        <a
-          href="https://www.free-stock-music.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="underline"
-        >
-          Free-Stock-Music.com
-        </a>
-        <br />
-        Licensed under{" "}
-        <a
-          href="https://creativecommons.org/licenses/by-sa/3.0/deed.en_US"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="underline"
-        >
-          CC BY-SA 3.0
-        </a>
-      </div>
+      
 
       {/* Konten Utama */}
       <div className="absolute inset-0 flex flex-col items-center justify-center z-10 p-4 overflow-y-auto">
         {step === 0 && (
           <>
-            <FloatingText text="Happy Birthday" delay={0} />
-            <FloatingText text="Happy Birthday" delay={1.5} />
+            <FloatingText text="Happy Anniversary" delay={0} />
+            <FloatingText text="Happy Anniversary" delay={1.5} />
           </>
         )}
 
@@ -127,7 +96,7 @@ export default function BirthdayMessage({ onComplete }) {
             }`}
           >
             <div className="text-3xl md:text-6xl font-bold text-pink-400 mb-8 neon-text">
-              Happy 22!
+              Happy Anniversary!
             </div>
           </div>
         )}
