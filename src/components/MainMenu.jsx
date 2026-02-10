@@ -70,9 +70,11 @@ export default function MainMenu({ currentPage, setCurrentPage }) {
 
   const menuItems = [
     { id: 'home', icon: <FaHome />, label: 'Home' },
+    { id: 'memories', icon: <FaImages />, label: 'Our Memories' },
     { id: 'calendar', icon: <FaCalendarAlt />, label: 'Love Calendar' },
     { id: 'puzzle', icon: <FaPuzzlePiece />, label: 'Love Puzzle' },
-    { id: 'notes', icon: <FaHeart />, label: 'Love Notes' }
+    { id: 'notes', icon: <FaHeart />, label: 'Love Notes' },
+    { id: 'music', icon: <FaMusic />, label: 'Our Song' }
   ];
 
   return (
@@ -185,9 +187,11 @@ export default function MainMenu({ currentPage, setCurrentPage }) {
                 </div>
               )}
 
+              {currentPage === 'memories' && <Gallery />}
               {currentPage === 'calendar' && <LoveCalendar />}
               {currentPage === 'puzzle' && <LovePuzzle />}
               {currentPage === 'notes' && <LoveNotes />}
+              {currentPage === 'music' && <MusicPlayer />}
             </div>
           </div>
         </div>

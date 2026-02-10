@@ -1,59 +1,13 @@
 import { useState } from "react";
 
-
-
-import march1 from "../assets/images/memories/march-1.jpg";
-import march2 from "../assets/images/memories/march-2.jpg";
-import march3 from "../assets/images/memories/march-3.jpg";
-import march4 from "../assets/images/memories/march-4.jpg";
-
-
-import april1 from "../assets/images/memories/april-1.jpg";
-import april2 from "../assets/images/memories/april-2.jpg";
-import april3 from "../assets/images/memories/april-3.jpg";
-import april4 from "../assets/images/memories/april-4.jpg";
-
-
-import may1 from "../assets/images/memories/may-1.jpg";
-import may2 from "../assets/images/memories/may-2.jpg";
-
-
-import june1 from "../assets/images/memories/june-1.jpg";
-import june2 from "../assets/images/memories/june-2.jpg";
-import june3 from "../assets/images/memories/june-3.jpg";
-import june4 from "../assets/images/memories/june-4.jpg";
-
-
-import july1 from "../assets/images/memories/july-1.jpg";
-import july2 from "../assets/images/memories/july-2.jpg";
-import july3 from "../assets/images/memories/july-3.jpg";
-import july4 from "../assets/images/memories/july-4.jpg";
-
-
-import august1 from "../assets/images/memories/august-1.jpg";
-import august2 from "../assets/images/memories/august-2.jpg";
-import august3 from "../assets/images/memories/august-3.jpg";
-import august4 from "../assets/images/memories/august-4.jpg";
-
-
-import september1 from "../assets/images/memories/september-1.jpg";
-import september2 from "../assets/images/memories/september-2.jpg";
-import september3 from "../assets/images/memories/september-3.jpg";
-import september4 from "../assets/images/memories/september-4.jpg";
-
-
-
+import january1 from "../assets/images/memories/245cdc36-0aaa-40ed-8fd9-a482e76ec725 - Adhim Dzaka Danandra.jpeg";
+import january2 from "../assets/images/memories/a3cd1f65-c97c-457e-a3e7-730d3dbe64ce - Adhim Dzaka Danandra.jpeg";
+import january3 from "../assets/images/memories/IMG_4204 - Adhim Dzaka Danandra.png";
+import january4 from "../assets/images/memories/IMG_4408 - Adhim Dzaka Danandra (1).jpeg";
+import january5 from "../assets/images/memories/IMG_4417 - Adhim Dzaka Danandra.jpeg";
 
 const monthPhotos = {
-
-  March: [march1, march2, march3, march4],
-  April: [april1, april2, april3, april4],
-  Mei: [may1, may2],
-  June: [june1, june2, june3, june4],
-  Juli: [july1, july2, july3, july4],
-  August: [august1, august2, august3, august4],
-  September: [september1, september2, september3, september4],
-
+  January: [january1, january2, january3, january4, january5]
 };
 
 
